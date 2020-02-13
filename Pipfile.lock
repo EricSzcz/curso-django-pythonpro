@@ -37,6 +37,7 @@
             ],
             "version": "==1.14.17"
         },
+
         "collectfast": {
             "hashes": [
                 "sha256:47b6129197a748ad45a5ad6c07fbeb3973c1f22212822299c5dfbd397c3286e4",
