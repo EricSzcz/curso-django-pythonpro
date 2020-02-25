@@ -8,6 +8,7 @@ flake8 = "*"
 pytest-django = "*"
 pytest-cov = "*"
 codecov = "*"
+pipfile = "*"
 
 [packages]
 django = "*"
@@ -19,4 +20,4 @@ django-s3-folder-storage = "*"
 collectfast = "*"
 
 [requires]
-python_version = "3.7"
+python_version = "3.7.6"
