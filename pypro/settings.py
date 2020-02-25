@@ -127,7 +127,7 @@ USE_TZ = True
 
 # Configuração de ambiente de desenvolvimento
 
-STATIC_URL = "/static/"
+STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 MEDIA_URL = '/media/'
@@ -153,6 +153,7 @@ if AWS_ACCESS_KEY_ID:
 
 # Static Assets
     STATICFILES_STORAGE = 's3_folder_storage.s3.StaticStorage'
+    COLLECTFAST_STRATEGY = 'collectfast.strategies.boto3.Boto3Strategy'
     STATIC_S3_PATH = 'static'
     STATIC_ROOT = f'/{STATIC_S3_PATH}/'
     STATIC_URL = f'//s3.amazonaws.com/{AWS_STORAGE_BUCKET_NAME}/{STATIC_S3_PATH}/'
