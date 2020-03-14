@@ -4,3 +4,7 @@
 *.sqlite3
 __pycache__/
 staticfiles/
+
+@postgres files for local development
+
+.pgdata
