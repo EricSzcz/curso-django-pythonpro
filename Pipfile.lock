@@ -115,11 +115,8 @@
             "version": "==20.0.4"
         },
         "jmespath": {
-            "hashes": [
-                "sha256:695cb76fa78a10663425d5b73ddc5714eb711157e52704d69be03b1a02ba4fec",
-                "sha256:cca55c8d153173e21baa59983015ad0daf603f9cb799904ff057bfb8ff8dc2d9"
-            ],
-            "version": "==0.9.5"
+            "hashes": [],
+            "version": "==1.1.0"
         },
         "psycopg2-binary": {
             "hashes": [
